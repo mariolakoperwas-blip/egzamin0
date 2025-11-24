@@ -1,0 +1,52 @@
+body {
+    font-family: Century, Serif;
+}
+header {
+    display: flex;
+    background-color: #CCA10B;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+    font-size: 32px;
+    text-shadow: 2px, 2px, 4px black 60%;
+}
+section{
+    display: flex;
+}
+.left{
+    background-color: rgb(5, 160, 88, 80%);
+    text-align: left;
+    width: 70%;
+    height: 620px;
+
+}
+.right{
+    background-color: rgb(5, 160, 88, 80%);
+    font-family: "LucidaConsole", "Consolas", "Courier New", monospace;
+    width: 30%;
+    height: 600px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+h1 {
+    padding-left: 30px;
+}
+
+.d{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin-left: 30px;
+
+}
+
+footer{
+    background-color: #CCA10B;
+    color: white;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+}

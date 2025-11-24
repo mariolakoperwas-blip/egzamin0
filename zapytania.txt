@@ -1,0 +1,17 @@
+SELECT imie, nazwisko, klasa
+FROM uczniowie
+WHERE klasa = "2B"
+
+
+
+
+SELECT uczniowie.imie, uczniowie.nazwisko, uczniowie.klasa 
+FROM zamowienia
+INNER JOIN uczniowie
+ON zamowienia.id_ucznia = uczniowie.id_ucznia
+INNER JOIN posilki
+ON zamowienia.id_posilku = posilki.id_posilku
+WHERE posilki.wegetarianski = 1
+Distinct
+
+
